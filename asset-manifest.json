@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bubble-sorting-colored/static/css/main.d87825d4.chunk.css",
-    "main.js": "/bubble-sorting-colored/static/js/main.4a409389.chunk.js",
-    "main.js.map": "/bubble-sorting-colored/static/js/main.4a409389.chunk.js.map",
+    "main.js": "/bubble-sorting-colored/static/js/main.fbed6083.chunk.js",
+    "main.js.map": "/bubble-sorting-colored/static/js/main.fbed6083.chunk.js.map",
     "runtime-main.js": "/bubble-sorting-colored/static/js/runtime-main.39debfe3.js",
     "runtime-main.js.map": "/bubble-sorting-colored/static/js/runtime-main.39debfe3.js.map",
     "static/js/2.4635375a.chunk.js": "/bubble-sorting-colored/static/js/2.4635375a.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.39debfe3.js",
     "static/js/2.4635375a.chunk.js",
     "static/css/main.d87825d4.chunk.css",
-    "static/js/main.4a409389.chunk.js"
+    "static/js/main.fbed6083.chunk.js"
   ]
 }
