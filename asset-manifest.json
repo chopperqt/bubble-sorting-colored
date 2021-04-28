@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/bubble-sorting/static/css/main.e9f67a5b.chunk.css",
+    "main.js": "/bubble-sorting/static/js/main.a313252f.chunk.js",
+    "main.js.map": "/bubble-sorting/static/js/main.a313252f.chunk.js.map",
+    "runtime-main.js": "/bubble-sorting/static/js/runtime-main.98c25ba4.js",
+    "runtime-main.js.map": "/bubble-sorting/static/js/runtime-main.98c25ba4.js.map",
+    "static/js/2.4635375a.chunk.js": "/bubble-sorting/static/js/2.4635375a.chunk.js",
+    "static/js/2.4635375a.chunk.js.map": "/bubble-sorting/static/js/2.4635375a.chunk.js.map",
+    "static/js/3.80973cdc.chunk.js": "/bubble-sorting/static/js/3.80973cdc.chunk.js",
+    "static/js/3.80973cdc.chunk.js.map": "/bubble-sorting/static/js/3.80973cdc.chunk.js.map",
+    "index.html": "/bubble-sorting/index.html",
+    "static/css/main.e9f67a5b.chunk.css.map": "/bubble-sorting/static/css/main.e9f67a5b.chunk.css.map",
+    "static/js/2.4635375a.chunk.js.LICENSE.txt": "/bubble-sorting/static/js/2.4635375a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/bubble-sorting/static/media/YanoneKaffeesatzVariableFont_wght.d27bc4cb.eot",
+    "static/media/logo.6ce24c58.svg": "/bubble-sorting/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98c25ba4.js",
+    "static/js/2.4635375a.chunk.js",
+    "static/css/main.e9f67a5b.chunk.css",
+    "static/js/main.a313252f.chunk.js"
+  ]
+}
