@@ -25,9 +25,19 @@ const Interface = () => {
         let min = 1;
         let max = 255;
         
+        const createColor = () => {
+            let color = [];
+
+            for (let i = 0; i < 3; i++) {
+                color.push(Math.round(min - 0.5 + Math.random() * (max - min + 1)));
+            }
+
+            return color;
+        }
+
         for (let i = 0; i < number; i++) {
             let randomColor = Math.round(min - 0.5 + Math.random() * (max - min + 1)); //Генерация цветов от 0 до 255;
-            setCollors(prev => [...prev, randomColor])
+            setCollors(prev => [...prev, createColor()])
         }
     }
 
@@ -57,9 +67,10 @@ const Interface = () => {
             index,
             number:parseInt(el.textContent, 10)
         }));
+
         for (let i = colors.length - 1; i > 0 ; i--) {
             for (let j = 0; j < i; j++) {
-                if (newArray[j] > newArray[j + 1]) {
+                if (lists[j + 1] !== undefined && lists[j].number > lists[j + 1].number) {
                     
                     setIncrease(true);
                     setDecrease(true);
@@ -120,6 +131,8 @@ const Interface = () => {
     
     useEffect(() => {
         colors.length === 0 ? setSortedBtn(true) : setSortedBtn(false);
+
+        console.log(colors)
     }, [colors])
 
     useEffect(() => {
