@@ -11,7 +11,7 @@ import Circle from '../Circle';
 
 const Interface = () => {
 
-    const [countCircles, setCountCircles] = useState(5);
+    const [countCircles, setCountCircles] = useState(10);
     const [colors,setCollors] = useState([]);
     const [isSorted, setIsSorted] = useState(false);
     const [increase, setIncrease] = useState(false);
